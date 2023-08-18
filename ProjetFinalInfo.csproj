@@ -231,6 +231,7 @@
     <Content Include="images\check_radio_sheet.png" />
     <Content Include="images\loader.gif" />
     <Content Include="images\print.png" />
+    <Content Include="images\ITH.jpg" />
     <Content Include="Laboratoire.aspx" />
     <Content Include="Medicaments.aspx" />
     <Content Include="Patients.aspx" />

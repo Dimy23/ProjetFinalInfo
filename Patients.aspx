@@ -14,16 +14,22 @@
             <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
         </Triggers>
         <ContentTemplate>
-            <br />
+           
+            
         <div class='col-lg-12'>
+            <div class='panel-heading'>
+               <h1><font color="#fefffc"><marquee>Bienvenue a Infrastructure Technologique des Hopitaux (ITH)</marquee></font></h1> 
+            </div>
+            <div class='panel-heading'>
+               <h1>Ajouter un Nouveau Patient</h1> 
+            </div>
             <br />
         <div class='panel panel-default'>
-            <br />
-            <div class='panel-heading'>
-                Ajouter un Nouveau Client
-            </div>
+             <br /><br /> <br /><br />
                 <div class='panel-body'>
                     <div class="row">
+                        <br /><br />
+                        <br /><br />
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <asp:TextBox ID="txtPrenom" runat="server"  class="form-control" placeholder="Entrer les Prénoms" MaxLength="40"></asp:TextBox>
@@ -82,15 +88,9 @@
                         </div>
                         <!-- /.col-lg-4 (nested) -->
                     </div>
-                    <!-- /.row (nested) -->                                            
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <asp:Label ID="lblError" runat="server" Font-Bold="True" ForeColor="#FF3300"></asp:Label> 
-                            </div>
-                        </div>
-                        <!-- /.col-lg-6 (nested) -->
-                    </div>
+                    <br /><br />
+                    <br /><br />
+                    <!-- /.row (nested) -->  
                     <!-- /.row (nested) -->
                     <div class="row">
                         <div class="col-lg-2">                                
@@ -100,6 +100,15 @@
                             <asp:Button ID="btnCancel" runat="server" Width="140" Height="50px" Text="Cancel" class="btn btn-outline btn-default" />
                         </div>
                         <!-- /.col-lg-6 (nested) -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <asp:Label ID="lblError" runat="server" Font-Bold="True" ForeColor="#FF3300"></asp:Label> 
+                            </div>
+                        </div>
+                        <!-- /.col-lg-6 (nested) -->
+                    </div>
+                    
                     </div>                  
                 </div>
         </div>
